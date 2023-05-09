@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobre {
+  font-size: 15px;
+  color: white;
+}
+
+h2 {
+  color: pink;
+}
+
+h3 {
+  color: pink;
+}
+
+strong {
+  color: pink;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.imagem-topo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.imagem-topo img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 5px solid pink;
+}
+
+.abaixoft {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.barra {
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+
+.projetos h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: pink;
+}
+
+.imagem-projeto img {
+  height: 100%;
+  width: 100vh;
+}
+
+.main--contact form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 40%;
+}
+input,
+textarea {
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.form--message-input {
+  width: 100%;
+}
+textarea {
+  height: 150px;
+}
+
+button {
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background-color: pink;
+  width: 220px;
+  padding: 16px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.abaixoft a {
+  display: block;
+}
+
+.barra a {
+  margin-right: 8px;
+}
